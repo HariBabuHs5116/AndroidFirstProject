@@ -4,6 +4,7 @@ plugins {
 
 android {
     compileSdk 32
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "com.example.firstjenkinsproject"
@@ -22,8 +23,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
